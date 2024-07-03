@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Tanvir Ahmed Khan">
+  <meta name="theme-color" content="#3f51b5">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair&#43;Display:400,700%7cFauna&#43;One">
+  <link rel="stylesheet" href="styles.css?date=2022-11-18">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <title>Tanvir Ahmed Khan</title>
+</head>
+
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container" style="width:95%">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="">Tanvir Ahmed Khan</a>
+    </div>
+    <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a href="#about" data-target="#about">
+                    <span>Home</span>
+                  </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#news" data-target="#news">
+                    <span>News</span>
+                  </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#awards" data-target="#awards">
+                    <span>Awards</span>
+                  </a>
+        </li>
+        <li class="nav-item">
+          <a href="#publications" data-target="#publications">
+                    <span>Publications</span>
+                  </a>
+        </li>
+        <li class="nav-item">
+          <a href="#teaching" data-target="#teaching">
+                    <span>Teaching</span>
+                  </a>
+        </li>
+	<li class="nav-item">
+          <a href="#mentoring" data-target="#mentoring">
+                    <span>Mentoring</span>
+                  </a>
+        </li>
+	<li class="nav-item">
+          <a href="#service" data-target="#service">
+                    <span>Service</span>
+                  </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="https://web.eecs.umich.edu/~takh/cv_tanvir.pdf" data-target="https://web.eecs.umich.edu/~takh/cv_tanvir.pdf">
+                    <span>CV</span>
+                  </a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" data-target="#contact">
+                    <span>Contact</span>
+                  </a>
+        </li>
+        </ul>
+    </div>
+  </div>
+</nav>
+<!--
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+
+      <img class="d-block my-w-100" src="banner.jpg" alt="First slide">
+
+      <div class="carousel-caption" style="color: white;">
+
+      <h1>Rescuing Data Center Processors</h1>
+
+      <p>Bring together compilers, operating systems, and computer architecture techniques to enable efficient data center processing</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+-->
+
+<div class="user_profile_cap">
+  <div class="user_profile_cover">
+    <!-- <img src="data-center-update_web-banner.jpg" alt="img"/> -->
+    <img src="banner-1.jpg?v=1" id="increase-width-low-scr" alt="img"/>
+    <div class="banner-text"><h1 style="color: white;">Rescuing Data Center Processors</h1><p>Bring together compilers, operating systems, and computer architecture techniques to enable efficient data center processing</p></div>
+    <style>
+.banner-text {
+  width: 100%;
+  position: absolute;
+  /*bottom: 20px;
+  right: 20px;*/
+  left: 0; top: 2rem;
+  text-align:center;
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+@media screen and (min-width: 600px){
+#increase-width-low-scr {
+  width: 100%;
+}
+}
+
+@media screen and (min-width: 600px) {
+.banner-text {
+top: 2rem;
+}
+
+.banner-text h1 {
+  font-size: 2rem;
+}
+.banner-text p {
+  font-size: 1rem;
+}
+}
+
+@media screen and (min-width: 1200px) {
+.banner-text {
+top: 6rem;
+}
+}
+@media screen and (max-width: 650px) {
+#increase-width-low-scr {
+  height: 12rem;
+}
+}
+@media screen and (min-width: 1000px) {
+.user_profile_headline img {
+  width: 225px;
+  height: 225px;
+  margin-top: -9%;
+  margin-left: 10%;
+}
+}
+@media screen and (min-width: 500px) and (max-width: 700px){
+.user_profile_headline img {
+  margin-top: -12%;
+}
+}
+@media screen and (max-width: 400px){
+.user_profile_headline img {
+  margin-top: -20%;
+}
+}
+@media screen and (min-width: 660px) and (max-width: 1200px){
+#top-name {
+margin-top: -12%;
+}
+}
+    </style>
+  </div>
+  <div class="user_profile_headline">
+    <img class="cropped-rounded" style="/*margin: -80px 0 0 0;margin-left: 37.5%;*/" src="takhan.png" alt="img"/> 
+  </div>
+</div>
+<section class="odd" id="about">
+<!--
+<div style="margin-bottom: 8vw;">
+<img class="centered cropped-rounded" id="main-img" src="https://web.eecs.umich.edu/~takh/takhan.png">
+</div>
+-->
+
+<div id="top-name" style="/*margin-top: 0rem*/">
+<h1 class="centered"><span>Tanvir Ahmed Khan</span></h1>
+<p class="centered"><span>Assistant Professor</span><br /><a href="https://www.columbia.edu">Columbia University</a><br />
+<a href="mailto:takh@umich.edu"><i class="bi bi-envelope-fill front-page-icon" style="color: #5aa4ba; "></i></a>
+<a href="https://web.eecs.umich.edu/~takh/cv_tanvir.pdf"><i class="ai ai-cv-square front-page-icon" style="color: #347496;"></i></a>
+<a href="https://scholar.google.com/citations?user=5Tv_pRsAAAAJ"><i class="ai ai-google-scholar-square front-page-icon" style="color: #235773;"></i></a>
+<a href="https://twitter.com/takhandipu"><i class="bi bi-3x bi-twitter front-page-icon" style="color: #173959;"></i></a>
+</p>
+</div>
+
+<p style="font-weight: bold;text-align: justify; text-justify: inter-word"><span style="color: #CB4154; font-weight: bold;">!!UPDATE!!</span> I am joining Columbia University as a tenure-track assistant professor. Please contact me at <a href="mailto:takh@umich.edu">takh@umich.edu</a> if you are interested in working with me.</p>
+
+<p style="text-align: justify; text-justify: inter-word">I build systems techniques to enable efficient data center processing. Enabling efficient data center processing is extremely challenging due to rapid growth in data and software complexity along with the ongoing slowdown in hardware performance scaling. As a consequence, micro-architectural structures (e.g., instruction and data cache, branch predictors) can no longer meet the demand of data center applications. Combining insights from <span style="font-weight: bold;">computer architecture, compilers, and operating systems</span>, I design techniques to enable near-ideal hardware structures via profile-guided optimizations. Consequently, <a href="https://patentimages.storage.googleapis.com/08/8a/ad/2ea1a91fa450e0/US20210342134A1.pdf">Intel</a> and <a href="https://armkeil.blob.core.windows.net/developer/Files/pdf/white-paper/neoverse-n1-core-performance-v2.pdf">ARM</a> have adopted a couple of my techniques, <a href="papers/khan-ispy-micro-2020.pdf">I-SPY</a> and <a href="papers/khan-dmon-osdi-2021.pdf">DMon</a>. My work has appeared in computer architecture and systems venues like ISCA, MICRO, OSDI, PLDI, FAST, and EuroSys. My research has also received MICRO 2022 Best Paper Award, DATE 2023 Best Paper Award Nomination, IEEE Micro Top Picks 2023 distinction, and multiple fellowships.</p>
+
+<p style="text-align: justify; text-justify: inter-word">I have worked with an amazing <a href="mentor.php">group</a> of researchers. If you are interested in working with me, please contact me at <a href="mailto:takh@umich.edu">takh@umich.edu</a>.</p>
+ 
+</section>
+
+<section class="even" id="news">
+<h1>Recent News <a href="all-news.php" style="font-size: 1rem">(full list)</a></h1>
+<ul>
+  <li>January 2023: <a href="papers/zhang-ocolos-micro-2022.pdf">OCOLOS</a> is selected for the <a href="https://www.sigarch.org/call-contributions/call-for-papers-ieee-micro-top-picks-2023/">IEEE Micro Top Pick 2023</a>. Congrats, <a href ="https://fling.seas.upenn.edu/~zyuxuan/dynamic/wordpress/">Yuxuan</a>!</li>
+  <li>November 2022: PEDAL is nominated for the Best Paper Award at <a href="https://www.date-conference.com">DATE'23</a>. Congrats, <a href ="https://yuhanchan.github.io">Yuhan</a>!</li>
+  <li>November 2022: Our proposal on rethinking micro-architectural and operating systems abstractions for data center applications has received Google gift. Thanks Google.</li>
+  <li>October 2022: <a href="papers/khan-whisper-micro-2022.pdf">Whisper</a> received the Best Paper Award at <a href="https://www.microarch.org/micro55/program/index.php">MICRO'22</a>.</li>
+  <li>October 2022: Kan Zhu, an undergraduate student mentored by me, won <a href="https://twitter.com/takhandipu/status/1577813886312620032">first place</a> at <a href="https://www.microarch.org/micro55/submit/src.php">MICRO 2022 Student Research Competition (SRC)</a>.</li>
+  <li>August 2022: I will serve on the IEEE/ACM International Symposium on Code Generation and Optimization (<a href="https://conf.researchr.org/home/cgo-2023">CGO'23</a>) Program Committee.</li>
+  <li>July 2022: <a href="papers/khan-whisper-micro-2022.pdf">Whisper</a> (profile-guided branch misprediction elimination for data center applications) and <a href="papers/zhang-ocolos-micro-2022.pdf">OCOLOS</a> (Online COde Layout OptimizationS to perform profile-guided optimizations on a running process) are accepted to appear at <a href="https://www.microarch.org/micro55/">MICRO'22</a>.</li>
+  <li>May 2022: Our proposal on data-driven processor design for data center applications is awarded TSA grant. Thanks Intel.</li>
+  <li>March 2022: I am awarded a <a href="https://cse.engin.umich.edu/stories/tanvir-ahmed-khan-awarded-rackham-predoctoral-fellowship">Rackham Predoctoral Fellowship</a> and a finalist for <a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/finalists">Qualcomm Innovation Fellowship</a>.</li>
+</ul>
+</section>
+
+
+<section class="odd" id="awards">
+<h1>Awards and Honors</h1>
+<ul>
+  <li>2023: Richard F. and Eleanor A. Towner Prize for Outstanding Ph.D. Research ($2,500), University of Michigan</li>
+  <li>2023: IEEE Micro Top Pick (awarded to the top 12 computer architecture papers of 2022)</li>
+  <li>2023: DATE Best Paper Award Nomination</li>
+  <li>2022-2023: <a href="https://cse.engin.umich.edu/stories/tanvir-ahmed-khan-awarded-rackham-predoctoral-fellowship">Rackham Predoctoral Fellowship</a> ($100,000 towards tuition, stipend, and insurance)</li>
+  <li>2022: <a href="https://cse.engin.umich.edu/stories/cse-authors-present-four-papers-at-micro-2022">MICRO'22 Best Paper Award</a> (top two of 83 papers, top 1% of 348 submissions)</li>
+  <li>2022: <a href="https://www.qualcomm.com/research/university-relations/innovation-fellowship/2022-north-america">Qualcomm Innovation Fellowship</a> Finalist (one of 46 finalists)</li>
+  <li>2021: Graduate Student Honors <a href="https://cse.engin.umich.edu/stories/outstanding-research-recognized-at-graduate-honors-competition">Best PhD Research Award</a> in the Michigan Systems Lab, University of Michigan</li>
+  <li>2020: <a href="https://research.facebook.com/blog/2020/01/announcing-the-recipients-of-the-2020-facebook-fellowship-awards/">Facebook Fellowship</a> Finalist (top 4% of 1800 applicants)</li>
+  <li>2017-2018: Rollin M. Gerstacker Foundation Fellowship ($100,000 towards tuition, stipend, and insurance)</li>
+  <li>2014: Crest of Honor, Highest CGPA in the department, presented by BUET alumni association</li>
+  <li>2009-2014: University Merit Scholarship, Bangladesh University of Engineering and Technology</li>
+  <li>2009-2014: Dean's List Scholarship, Bangladesh University of Engineering and Technology</li>
+</ul>
+</section>
+<section class="even" id="publications">
+<h1>Selected Publications <a href="publications.php" style="font-size: 1rem">(full list)</a> </h1>
+<style>
+.Tanvir {
+  font-weight: bold;
+}
+.award {
+  color: #CB4154;
+}
+
+
+/*.bibtexVar {
+  color: #5aa4ba;
+}
+.pdfVar {
+  color: #347496;
+}
+.videoVar {
+  color: #235773;
+}
+.codeVar {
+  color: #173959;
+}*/
+</style>
+            <bibtex src="selected.bib?v=1"></bibtex>
+            
+<div id="bibtex_display">
+  
+  
+<div class="sort year" extra="DESC number">
+<!-- <div class="sort date" extra="DESC date"> -->
+<div class="templates"><div class="if bibtexentry" style="">
+     <ul> <li> 
+     <span class="">
+        <!-- <a class="bibtexVar" href="paper/+BIBTEXKEY+.pdf" extra="BIBTEXKEY"> -->
+            <span style="text-decoration: underline;" class="title">Whisper: Profile-Guided Branch Misprediction Elimination for Data Center Applications</span>,
+        <!-- </a> -->
+      </span>
+      
+      <div class="">
+        <span class="author"><span class="Tanvir Ahmed Khan"><span class="first">Tanvir Ahmed</span> <span class="last">Khan</span></span>, <span class="Muhammed Ugur"><span class="first">Muhammed</span> <span class="last">Ugur</span></span>, <span class="Krishnendra Nathella"><span class="first">Krishnendra</span> <span class="last">Nathella</span></span>, <span class="Dam Sunwoo"><span class="first">Dam</span> <span class="last">Sunwoo</span></span>, <span class="Heiner Litz"><span class="first">Heiner</span> <span class="last">Litz</span></span>, <span class="Daniel A Jiménez"><span class="first">Daniel A</span> <span class="last">Jiménez</span></span>, and <span class="Baris Kasikci"><span class="first">Baris</span> <span class="last">Kasikci</span></span></span> 
+      </div>
+      <div>
+        
+        <span class="">In <em><span class="booktitle">Proceedings of the 55th International Symposium on Microarchitecture (<b>MICRO</b>)</span></em>,</span>
+        
+        
+        
+        
+        
+        
+        
+        
+        <span class=""><span class="month">October</span>,</span>
+        <span class=""><span class="year">2022</span>.</span>
+        
+        <br>
+        <a class="bibtexVar" role="button" data-toggle="collapse" href="#bibkhan-whisper-micro-2022" aria-expanded="false" aria-controls="bibkhan-whisper-micro-2022" extra="BIBTEXKEY">
+		  [bib]
+		</a>
+  <!-- <span class="if doi">
+  <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi">
+    [view online]
+  </a>
+  </span> -->
+  <a class="bibtexVar" href="papers/khan-whisper-micro-2022.pdf" extra="BIBTEXKEY">[pdf]</a>
+  <a class="bibtexVar" href="https://youtu.be/wbNlkTaGlz0" extra="video">[video]</a>
+
+      </div>
+      <div class="">
+        <b><span class="my-award">Received the MICRO'22 Best Paper Award</span></b>
+        <img src="https://web.eecs.umich.edu/~takh/award.png" alt="Award" style="width: 1rem; display: inline;">
+      </div>
+      
+      <div class="bibtexVar collapse" id="bibkhan-whisper-micro-2022" extra="BIBTEXKEY">
+		  <div class="well">
+		    <pre><span class="bibtexraw noread">@inproceedings{khan-whisper-micro-2022,
+  author = {Khan, Tanvir Ahmed and Ugur, Muhammed and Nathella, Krishnendra and Sunwoo, Dam and Litz, Heiner and Jim{\'e}nez, Daniel A and Kasikci, Baris},
+  title = {Whisper: Profile-Guided Branch Misprediction Elimination for Data Center Applications},
+  booktitle = {Proceedings of the 55th International Symposium on Microarchitecture (<b>MICRO</b>)},
+  series = {MICRO 2022},
+  year = {2022},
+  award = {Nominated for the best paper award},
+  month = oct,
+}</span></pre>
+		  </div>
+	  </div>
+      <div style="display:none"><span class="bibtextype">conference, workshop</span></div>
+      <div style="display:none"></div>
+  </li></ul></div><div class="if bibtexentry" style="">
+     <ul> <li> 
+     <span class="">
+        <!-- <a class="bibtexVar" href="paper/+BIBTEXKEY+.pdf" extra="BIBTEXKEY"> -->
+            <span style="text-decoration: underline;" class="title">Twig: Profile-Guided BTB Prefetching for Data Center Applications</span>,
+        <!-- </a> -->
+      </span>
+      
+      <div class="">
+        <span class="author"><span class="Tanvir Ahmed Khan"><span class="first">Tanvir Ahmed</span> <span class="last">Khan</span></span>, <span class="Nathan Brown"><span class="first">Nathan</span> <span class="last">Brown</span></span>, <span class="Akshitha Sriraman"><span class="first">Akshitha</span> <span class="last">Sriraman</span></span>, <span class="Niranjan Soundararajan"><span class="first">Niranjan</span> <span class="last">Soundararajan</span></span>, <span class="Rakesh Kumar"><span class="first">Rakesh</span> <span class="last">Kumar</span></span>, <span class="Joseph Devietti"><span class="first">Joseph</span> <span class="last">Devietti</span></span>, <span class="Sreenivas Subramoney"><span class="first">Sreenivas</span> <span class="last">Subramoney</span></span>, <span class="Gilles Pokam"><span class="first">Gilles</span> <span class="last">Pokam</span></span>, <span class="Heiner Litz"><span class="first">Heiner</span> <span class="last">Litz</span></span>, and <span class="Baris Kasikci"><span class="first">Baris</span> <span class="last">Kasikci</span></span></span> 
+      </div>
+      <div>
+        
+        <span class="">In <em><span class="booktitle">Proceedings of the 54th International Symposium on Microarchitecture (<b>MICRO</b>)</span></em>,</span>
+        
+        
+        
+        
+        
+        
+        
+        
+        <span class=""><span class="month">October</span>,</span>
+        <span class=""><span class="year">2021</span>.</span>
+        
+        <br>
+        <a class="bibtexVar" role="button" data-toggle="collapse" href="#bibkhan-twig-micro-2021" aria-expanded="false" aria-controls="bibkhan-twig-micro-2021" extra="BIBTEXKEY">
+		  [bib]
+		</a>
+  <!-- <span class="if doi">
+  <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi">
+    [view online]
+  </a>
+  </span> -->
+  <a class="bibtexVar" href="papers/khan-twig-micro-2021.pdf" extra="BIBTEXKEY">[pdf]</a>
+  <a class="bibtexVar" href="https://drive.google.com/file/d/1v_8aD18sDjWxv2D7ZbY9okVHueSD84W6/view" extra="video">[video]</a>
+
+      </div>
+     
+      <div class="">
+        <b><span class="my-award">Semiconductor Research Corporation (SRC) Best Paper, Q3’2021</span></b>
+      </div>
+      
+      
+      <div class="bibtexVar collapse" id="bibkhan-twig-micro-2021" extra="BIBTEXKEY">
+		  <div class="well">
+		    <pre><span class="bibtexraw noread">@inproceedings{khan-twig-micro-2021,
+  author = {Khan, Tanvir Ahmed and Brown, Nathan and Sriraman, Akshitha and Soundararajan, Niranjan and Kumar, Rakesh and Devietti, Joseph and Subramoney, Sreenivas and Pokam, Gilles and Litz, Heiner and Kasikci, Baris},
+  title = {Twig: Profile-Guided BTB Prefetching for Data Center Applications},
+  booktitle = {Proceedings of the 54th International Symposium on Microarchitecture (<b>MICRO</b>)},
+  series = {MICRO 2021},
+  year = {2021},
+  video = {https://drive.google.com/file/d/1v_8aD18sDjWxv2D7ZbY9okVHueSD84W6/view},
+  month = oct,
+}</span></pre>
+		  </div>
+	  </div>
+      <div style="display:none"><span class="bibtextype">conference, workshop</span></div>
+      <div style="display:none"></div>
+  </li></ul></div><div class="if bibtexentry" style="">
+     <ul> <li> 
+     <span class="">
+        <!-- <a class="bibtexVar" href="paper/+BIBTEXKEY+.pdf" extra="BIBTEXKEY"> -->
+            <span style="text-decoration: underline;" class="title">Ripple: Profile-Guided Instruction Cache Replacement for Data Center Applications</span>,
+        <!-- </a> -->
+      </span>
+      
+      <div class="">
+        <span class="author"><span class="Tanvir Ahmed Khan"><span class="first">Tanvir Ahmed</span> <span class="last">Khan</span></span>, <span class="Dexin Zhang"><span class="first">Dexin</span> <span class="last">Zhang</span></span>, <span class="Akshitha Sriraman"><span class="first">Akshitha</span> <span class="last">Sriraman</span></span>, <span class="Joseph Devietti"><span class="first">Joseph</span> <span class="last">Devietti</span></span>, <span class="Gilles Pokam"><span class="first">Gilles</span> <span class="last">Pokam</span></span>, <span class="Heiner Litz"><span class="first">Heiner</span> <span class="last">Litz</span></span>, and <span class="Baris Kasikci"><span class="first">Baris</span> <span class="last">Kasikci</span></span></span> 
+      </div>
+      <div>
+        
+        <span class="">In <em><span class="booktitle">Proceedings of the 48th International Symposium on Computer Architecture (<b>ISCA</b>)</span></em>,</span>
+        
+        
+        
+        
+        
+        
+        
+        
+        <span class=""><span class="month">June</span>,</span>
+        <span class=""><span class="year">2021</span>.</span>
+        
+        <br>
+        <a class="bibtexVar" role="button" data-toggle="collapse" href="#bibkhan-ripple-isca-2021" aria-expanded="false" aria-controls="bibkhan-ripple-isca-2021" extra="BIBTEXKEY">
+		  [bib]
+		</a>
+  <!-- <span class="if doi">
+  <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi">
+    [view online]
+  </a>
+  </span> -->
+  <a class="bibtexVar" href="papers/khan-ripple-isca-2021.pdf" extra="BIBTEXKEY">[pdf]</a>
+  <a class="bibtexVar" href="https://t.co/h1V8maK4hj" extra="video">[video]</a>
+  <a class="bibtexVar" href="https://github.com/efeslab/ispy-ripple" extra="code">[code]</a>
+
+      </div>
+      
+      
+      <div class="bibtexVar collapse" id="bibkhan-ripple-isca-2021" extra="BIBTEXKEY">
+		  <div class="well">
+		    <pre><span class="bibtexraw noread">@inproceedings{khan-ripple-isca-2021,
+  author = {Khan, Tanvir Ahmed and Zhang, Dexin and Sriraman, Akshitha and Devietti, Joseph and Pokam, Gilles and Litz, Heiner and Kasikci, Baris},
+  title = {Ripple: Profile-Guided Instruction Cache Replacement for Data Center Applications},
+  booktitle = {Proceedings of the 48th International Symposium on Computer Architecture (<b>ISCA</b>)},
+  series = {ISCA 2021},
+  year = {2021},
+  video = {https://t.co/h1V8maK4hj},
+  code = {https://github.com/efeslab/ispy-ripple},
+  month = jun,
+}</span></pre>
+		  </div>
+	  </div>
+      <div style="display:none"><span class="bibtextype">conference, workshop</span></div>
+      <div style="display:none"></div>
+  </li></ul></div><div class="if bibtexentry" style="">
+     <ul> <li> 
+     <span class="">
+        <!-- <a class="bibtexVar" href="paper/+BIBTEXKEY+.pdf" extra="BIBTEXKEY"> -->
+            <span style="text-decoration: underline;" class="title">DMon: Efficient Detection and Correction of Data Locality Problems using Selective Profiling</span>,
+        <!-- </a> -->
+      </span>
+     
+      <div class="">
+        <span class="author"><span class="Tanvir Ahmed Khan"><span class="first">Tanvir Ahmed</span> <span class="last">Khan</span></span>, <span class="Ian Neal"><span class="first">Ian</span> <span class="last">Neal</span></span>, <span class="Gilles Pokam"><span class="first">Gilles</span> <span class="last">Pokam</span></span>, <span class="Barzan Mozafari"><span class="first">Barzan</span> <span class="last">Mozafari</span></span>, and <span class="Baris Kasikci"><span class="first">Baris</span> <span class="last">Kasikci</span></span></span> 
+      </div>
+      <div>
+        
+        <span class="">In <em><span class="booktitle">Proceedings of the 15th USENIX Symposium on Operating Systems Design and Implementation (<b>OSDI</b>)</span></em>,</span>
+        
+        <span class=""><em><span class="publisher">USENIX Association</span></em>,</span>
+        
+        
+        
+        
+        
+        
+        <span class=""><span class="month">July</span>,</span>
+        <span class=""><span class="year">2021</span>.</span>
+        
+        <br>
+        <a class="bibtexVar" role="button" data-toggle="collapse" href="#bibkhan-dmon-osdi-2021" aria-expanded="false" aria-controls="bibkhan-dmon-osdi-2021" extra="BIBTEXKEY">
+		  [bib]
+		</a>
+  <!-- <span class="if doi">
+  <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi">
+    [view online]
+  </a>
+  </span> -->
+  <a class="bibtexVar" href="papers/khan-dmon-osdi-2021.pdf" extra="BIBTEXKEY">[pdf]</a>
+  <a class="bibtexVar" href="https://www.youtube.com/watch?v=u6zUyyzoJpY" extra="video">[video]</a>
+  <a class="bibtexVar" href="https://github.com/efeslab/dmon-ae" extra="code">[code]</a>
+
+      </div>
+      
+      <div class="">
+        <b><span class="adopt my-award">Adopted by <a href="https://armkeil.blob.core.windows.net/developer/Files/pdf/white-paper/neoverse-n1-core-performance-v2.pdf">ARM</a></span></b>
+      </div>
+      <div class="bibtexVar collapse" id="bibkhan-dmon-osdi-2021" extra="BIBTEXKEY">
+		  <div class="well">
+		    <pre><span class="bibtexraw noread">@inproceedings{khan-dmon-osdi-2021,
+  author = {Khan, Tanvir Ahmed and Neal, Ian and Pokam, Gilles and Mozafari, Barzan and Kasikci, Baris},
+  title = {DMon: Efficient Detection and Correction of Data Locality Problems using Selective Profiling},
+  booktitle = {Proceedings of the 15th USENIX Symposium on Operating Systems Design and Implementation (<b>OSDI</b>)},
+  publisher = {{USENIX} Association},
+  series = {OSDI 2021},
+  year = {2021},
+  video = {https://www.youtube.com/watch?v=u6zUyyzoJpY},
+  adopt = {Adopted by <a href="https://armkeil.blob.core.windows.net/developer/Files/pdf/white-paper/neoverse-n1-core-performance-v2.pdf">ARM</a>},
+  code = {https://github.com/efeslab/dmon-ae},
+  month = jul,
+}</span></pre>
+		  </div>
+	  </div>
+      <div style="display:none"><span class="bibtextype">conference, workshop</span></div>
+      <div style="display:none"></div>
+  </li></ul></div><div class="if bibtexentry" style="">
+     <ul> <li> 
+     <span class="">
+        <!-- <a class="bibtexVar" href="paper/+BIBTEXKEY+.pdf" extra="BIBTEXKEY"> -->
+            <span style="text-decoration: underline;" class="title">I-SPY: Context-Driven Conditional Instruction Prefetching with Coalescing</span>,
+        <!-- </a> -->
+      </span>
+      
+      <div class="">
+        <span class="author"><span class="Tanvir Ahmed Khan"><span class="first">Tanvir Ahmed</span> <span class="last">Khan</span></span>, <span class="Akshitha Sriraman"><span class="first">Akshitha</span> <span class="last">Sriraman</span></span>, <span class="Joseph Devietti"><span class="first">Joseph</span> <span class="last">Devietti</span></span>, <span class="Gilles Pokam"><span class="first">Gilles</span> <span class="last">Pokam</span></span>, <span class="Heiner Litz"><span class="first">Heiner</span> <span class="last">Litz</span></span>, and <span class="Baris Kasikci"><span class="first">Baris</span> <span class="last">Kasikci</span></span></span> 
+      </div>
+      <div>
+        
+        <span class="">In <em><span class="booktitle">Proceedings of the 53rd IEEE/ACM International Symposium on Microarchitecture (<b>MICRO</b>)</span></em>,</span>
+        
+        <span class=""><em><span class="publisher">IEEE</span></em>,</span>
+        
+        
+        
+        
+        
+        
+        <span class=""><span class="month">October</span>,</span>
+        <span class=""><span class="year">2020</span>.</span>
+        
+        <br>
+        <a class="bibtexVar" role="button" data-toggle="collapse" href="#bibkhan-ispy-micro-2020" aria-expanded="false" aria-controls="bibkhan-ispy-micro-2020" extra="BIBTEXKEY">
+		  [bib]
+		</a>
+  <!-- <span class="if doi">
+  <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi">
+    [view online]
+  </a>
+  </span> -->
+  <a class="bibtexVar" href="papers/khan-ispy-micro-2020.pdf" extra="BIBTEXKEY">[pdf]</a>
+  <a class="bibtexVar" href="https://www.youtube.com/watch?v=pMxOObMhnVE" extra="video">[video]</a>
+  <a class="bibtexVar" href="https://github.com/efeslab/ispy-ripple" extra="code">[code]</a>
+
+      </div>
+      
+      <div class="">
+        <b><span class="adopt my-award">Adopted by <a href="https://patentimages.storage.googleapis.com/08/8a/ad/2ea1a91fa450e0/US20210342134A1.pdf">Intel</a></span></b>
+      </div>
+     
+      <div class="">
+        <b><span class="my-award">Semiconductor Research Corporation (SRC) Best Paper, Q3’2020</span></b>
+      </div>
+      <div class="bibtexVar collapse" id="bibkhan-ispy-micro-2020" extra="BIBTEXKEY">
+		  <div class="well">
+		    <pre><span class="bibtexraw noread">@inproceedings{khan-ispy-micro-2020,
+  author = {Khan, Tanvir Ahmed and Sriraman, Akshitha and Devietti, Joseph and Pokam, Gilles and Litz, Heiner and Kasikci, Baris},
+  title = {I-SPY: Context-Driven Conditional Instruction Prefetching with Coalescing},
+  booktitle = {Proceedings of the 53rd IEEE/ACM International Symposium on Microarchitecture (<b>MICRO</b>)},
+  series = {MICRO 2020},
+  year = {2020},
+  publisher = {IEEE},
+  url = {https://doi.org/10.1109/MICRO50266.2020.00024},
+  doi = {10.1109/MICRO50266.2020.00024},
+  video = {https://www.youtube.com/watch?v=pMxOObMhnVE},
+  adopt = {Adopted by <a href="https://patentimages.storage.googleapis.com/08/8a/ad/2ea1a91fa450e0/US20210342134A1.pdf">Intel</a>},
+  code = {https://github.com/efeslab/ispy-ripple},
+  month = oct,
+}</span></pre>
+		  </div>
+	  </div>
+      <div style="display:none"><span class="bibtextype">conference, workshop</span></div>
+      <div style="display:none"></div>
+  </li></ul></div><div class="if bibtexentry" style="">
+     <ul> <li> 
+     <span class="">
+        <!-- <a class="bibtexVar" href="paper/+BIBTEXKEY+.pdf" extra="BIBTEXKEY"> -->
+            <span style="text-decoration: underline;" class="title">Huron : Hybrid False Sharing Detection and Repair</span>,
+        <!-- </a> -->
+      </span>
+      
+      <div class="">
+        <span class="author"><span class="Tanvir Ahmed Khan"><span class="first">Tanvir Ahmed</span> <span class="last">Khan</span></span>, <span class="Yifan Zhao"><span class="first">Yifan</span> <span class="last">Zhao</span></span>, <span class="Gilles Pokam"><span class="first">Gilles</span> <span class="last">Pokam</span></span>, <span class="Barzan Mozafari"><span class="first">Barzan</span> <span class="last">Mozafari</span></span>, and <span class="Baris Kasikci"><span class="first">Baris</span> <span class="last">Kasikci</span></span></span> 
+      </div>
+      <div>
+        
+        <span class="">In <em><span class="booktitle">Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation (<b>PLDI</b>)</span></em>,</span>
+        
+        <span class=""><em><span class="publisher">ACM</span></em>,</span>
+        
+        
+        
+        
+        
+        
+        <span class=""><span class="month">June</span>,</span>
+        <span class=""><span class="year">2019</span>.</span>
+        
+        <br>
+        <a class="bibtexVar" role="button" data-toggle="collapse" href="#bibkhan-huron-pldi-2019" aria-expanded="false" aria-controls="bibkhan-huron-pldi-2019" extra="BIBTEXKEY">
+		  [bib]
+		</a>
+  <!-- <span class="if doi">
+  <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi">
+    [view online]
+  </a>
+  </span> -->
+  <a class="bibtexVar" href="papers/khan-huron-pldi-2019.pdf" extra="BIBTEXKEY">[pdf]</a>
+  <a class="bibtexVar" href="https://www.youtube.com/watch?v=vLr02z3FrSs" extra="video">[video]</a>
+  <a class="bibtexVar" href="https://github.com/efeslab/huron" extra="code">[code]</a>
+
+      </div>
+     
+      <div class="">
+        <b><span class="my-award">Semiconductor Research Corporation (SRC) Best Paper, Q2’2019</span></b>
+      </div> 
+      
+      <div class="bibtexVar collapse" id="bibkhan-huron-pldi-2019" extra="BIBTEXKEY">
+		  <div class="well">
+		    <pre><span class="bibtexraw noread">@inproceedings{khan-huron-pldi-2019,
+  author = {Khan, Tanvir Ahmed and Zhao, Yifan and Pokam, Gilles and Mozafari, Barzan and Kasikci, Baris},
+  title = {Huron : Hybrid False Sharing Detection and Repair},
+  booktitle = {Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation (<b>PLDI</b>)},
+  series = {PLDI 2019},
+  year = {2019},
+  publisher = {ACM},
+  url = {https://doi.org/10.1145/3314221.3314644},
+  doi = {10.1145/3314221.3314644},
+  video = {https://www.youtube.com/watch?v=vLr02z3FrSs},
+  code = {https://github.com/efeslab/huron},
+  month = jun,
+}</span></pre>
+		  </div>
+	  </div>
+      <div style="display:none"><span class="bibtextype">conference, workshop</span></div>
+      <div style="display:none"></div>
+  </li></ul></div></div>
+</div></div>
+
+<!-- <script type="text/javascript" src="https://cdn.rawgit.com/pcooksey/bibtex-js/ef59e62c/src/bibtex_js.js"></script> -->
+</section>
+
+<section class="odd" id="teaching">
+<h1>Teaching</h1>
+<ul>
+<li>Winter 2022: <b>Primary Instructor</b> for the graduate course, <a href="https://github.com/efeslab/eecs582">EECS 582: Advanced Operating Systems</a>, University of Michigan</li>
+<li>Spring 2022: Invited guest lecture on profile-guided compiler optimizations for the graduate course, <a href="https://github.com/STAR-Research/18-847C-S22">18-847C: Data Center Computing</a>, Carnegie Mellon University</li>
+<li>Winter 2019: Teaching Assistant with Thomas Wenisch for the graduate course, <a href="http://www.eecs.umich.edu/courses/eecs570/">EECS 570: Parallel Computer Architecture</a>, University of Michigan</li>
+<li>2014-2017: <b>Primary Instructor</b> for undergraduate courses, <a href="https://sites.google.com/view/cse305january2017">CSE 305: Computer Architecture</a>, <a href="https://sites.google.com/site/cse313january2016/">CSE 313: Operating Systems</a>, and <a href="https://sites.google.com/site/cse309feb2015/">CSE 309: Compilers</a>, Bangladesh University of Engineering and Technology</li>
+</ul>
+</section>
+
+
+<section class="even" id="mentoring">
+<h1>Selected Research Mentoring <a href="mentor.php" style="font-size: 1rem">(full list)</a></h1>
+<ul><li>
+      2022-present:
+            <span class="mentee">Woojin Jung</span> (Cranbrook High School)
+      <div><span class="mentee-project">Performance characterization and optimization of distributed gradient boosting workloads</span></div>
+</li></ul>
+
+<ul><li>
+      2022-present:
+            <span class="mentee"><a href="https://kanzhu.netlify.app">Kan Zhu</a></span> (UM BSc)
+      <div><span class="mentee-project">Architectural implications of Google's data center applications</span></div>
+      <div><span class="mentee-award"><a href="https://twitter.com/takhandipu/status/1577813886312620032">First place in ACM undergraduate student research competition (MICRO'22)</a></span> <img src="https://web.eecs.umich.edu/~takh/award.png" alt="Award"  style="width: 1rem; display: inline;"></div>
+</li></ul>
+
+<ul><li>
+      2021-present:
+            <span class="mentee"><a href="https://users.soe.ucsc.edu/~sjamilan/">Saba Jamilan</a></span> (UCSC PhD)
+      <div><span class="mentee-project">Profile-guided timely software prefetching and replacement</span></div>
+      <div><span class="mentee-paper">First author of <a href="https://web.eecs.umich.edu/~takh/papers/jamilan-apt-get-eurosys-2022.pdf">APT-GET</a> [EuroSys'22]</span></div>
+</li></ul>
+
+<ul><li>
+      2020-present:
+            <span class="mentee"><a href="https://fling.seas.upenn.edu/~zyuxuan/">Yuxuan Zhang</a></span> (UPenn PhD)
+      <div><span class="mentee-project">Online profile-guided optimizations for C/C++ applications</span></div>
+      <div><span class="mentee-paper"> First author of <a href="https://web.eecs.umich.edu/~takh/papers/zhang-ocolos-micro-2022.pdf">OCOLOS</a> [MICRO'22]</span></div>
+</li></ul>
+
+<ul><li>
+      2020-present:
+            <span class="mentee"><a href="https://peterbraunsite.wordpress.com">Peter Braun</a></span> (UCSC PhD)
+      <div><span class="mentee-project">Performance characterization and optimization of modern processor's frontend for data center applications</span></div>
+      <div><span class="mentee-paper"> Co-author of <a href="https://web.eecs.umich.edu/~takh/papers/soundararajan-pdede-micro-2021.pdf">PDede</a> [MICRO'21]</span></div>
+</li></ul>
+
+<ul><li>
+      2020-2022:
+            <span class="mentee"><a href="https://smahdizadeh.github.io">Sara Mahdizadeh Shahri</a></span> (UM PhD → CMU PhD)
+      <div><span class="mentee-project">Proxy-web: a proxy app suite for production web services</span></div>
+      <div><span class="mentee-paper">Co-author of <a href="https://web.eecs.umich.edu/~takh/papers/song-thermometer-isca-2022.pdf">Thermometer</a> [ISCA'22]</span></div>
+</li></ul>
+
+<ul><li>
+      2021-2022:
+            <span class="mentee"><a href="https://zhizhuoxin.github.io">Shixin Song</a></span> (UM BSc →  MIT PhD)
+      <div><span class="mentee-project">Profile-guided BTB replacement for data center applications</span></div>
+      <div><span class="mentee-paper">First author of <a href="https://web.eecs.umich.edu/~takh/papers/song-thermometer-isca-2022.pdf">Thermometer</a> [ISCA'22]</span></div>
+      <div><span class="mentee-award"><a href="https://cse.engin.umich.edu/stories/undergraduate-researcher-wins-first-place-at-the-acm-student-research-competition">First place in ACM undergraduate student research competition (MICRO'21)</a></span> <img src="https://web.eecs.umich.edu/~takh/award.png" alt="Award"  style="width: 1rem; display: inline;"></div>
+      <div><span class="mentee-award"><a href="https://cra.org/2022-outstanding-undergraduate-researcher-award-recipients">CRA outstanding undergraduate researcher award honorable mention, 2022</a></span> <img src="https://web.eecs.umich.edu/~takh/award.png" alt="Award" style="width: 1rem; display: inline;"></div>
+</li></ul>
+
+<ul><li>
+      2020-2022:
+            <span class="mentee"><a href="https://meugur.github.io">Muhammed Ugur</a></span> (UM BSc, MSc → Yale PhD)
+      <div><span class="mentee-project">Profile-guided Linux Kernel optimizations for data center applications</span></div>
+      <div><span class="mentee-paper">Co-author of <a href="https://web.eecs.umich.edu/~takh/papers/khan-whisper-micro-2022.pdf">Whisper</a> [MICRO'22]</span></div>
+      <div><span class="mentee-paper">First author of <a href="https://web.eecs.umich.edu/~takh/papers/ugur-one-profile-fits-all-osr-2022.pdf">One Profile First All</a> [SIGOPS OSR'22]</span></div>
+</li></ul>
+
+<ul><li>
+      2019-2021:
+            <span class="mentee"><a href="https://www.linkedin.com/in/nathan-l-brown/">Nathan Brown</a></span> (UM BSc, MSc → ARM)
+      <div><span class="mentee-project">Profile-guided instruction cache and BTB prefetching for data center applications</span></div>
+      <div><span class="mentee-paper"> Co-author of <a href="https://web.eecs.umich.edu/~takh/papers/khan-twig-micro-2021.pdf">Twig</a> [MICRO'21]</span></div>
+      <div><span class="mentee-award"><a href="https://cse.engin.umich.edu/stories/undergraduate-research-on-speeding-up-data-centers-earns-acm-first-prize">First place in ACM undergraduate student research competition (CGO'20)</a></span> <img src="https://web.eecs.umich.edu/~takh/award.png" alt="Award" style="width: 1rem; display: inline;"></div>
+</li></ul>
+
+<ul><li>
+      2018-2019:
+            <span class="mentee"><a href="https://evzh.net">Yifan Zhao</a></span> (UM BSc → UIUC PhD)
+      <div><span class="mentee-project">Hybrid false sharing detection and repair</span></div>
+      <div><span class="mentee-paper">Co-author of <a href="https://web.eecs.umich.edu/~takh/papers/khan-huron-pldi-2019.pdf">Huron</a> [PLDI'19]</span></div>
+</li></ul>
+
+
+</section>
+
+<section class="odd" id="service">
+<h1>Service</h1>
+<ul>
+<li>Program Committee Member for European Conference on Computer Systems (EuroSys'24) and International Symposium on Code Generation and Optimization (CGO'24)</li>
+<li>Program Committee Member for International Symposium on Code Generation and Optimization (CGO'23) and Young Architect Workshop (YArch'22)</li>
+<li>External Review Committee Member for International Symposium on Microarchitecture (MICRO'22), Architectural Support for Programming Languages and Operating Systems (ASPLOS'22 and ASPLOS'21)</li>
+<li>Publicity Chair for Young Architect Workshop (YArch'22)</li>
+<li>Shadow Program Committee Member for European Conference on Computer Systems (EuroSys'21)</li>
+<li>Artifact Evaluation Committee Member for SIGPLAN Conference on Programming Language Design and Implementation (PLDI'20), Third Conference on Machine Learning and Systems (MLSys'20), International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS'20), and ACM Symposium on Operating Systems Principles (SOSP'19).</li>
+</ul>
+</section>
+
+<section class="even" id="contact">
+<h1>Contact</h1>
+<p><a href="mailto:takh@umich.edu">takh@umich.edu</a></p>
+<p class="text-muted centered">&copy <script>document.write(new Date().getFullYear())</script> Tanvir Ahmed Khan</p>
+</section>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    <script src="test.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+
+</html>
+
+
+
