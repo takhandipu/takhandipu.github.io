@@ -1,0 +1,195 @@
+/*Start*/
+
+/*
+      <div><span class="mentee-paper"> author of <a href="link">Paper</a> [Conf'22]</span></div>
+*/
+
+.mentee {
+  text-decoration: underline;
+}
+.mentee-project {
+  font-style: italic;
+}
+.mentee-paper {
+  font-weight: bold;
+}
+.mentee-award, .mentee-award a {
+  color: #CB4154;
+}
+
+/*End*/
+
+/*body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}*/
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.centered {
+ text-align: center;
+}
+
+.divCentered {
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 35px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.myCentered {
+    margin: 0 auto;
+}
+
+.image-footer {
+    color: white;
+    font-variant: small-caps;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+img:hover {
+    /*opacity: 0.25;
+    filter: alpha(opacity=25);*/
+}
+
+.front-page-icon {
+    font-size: 3rem;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.img-portfolio {
+    max-width:230px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.my-img-cropped-rounded {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin:0 auto;
+}
+
+.my-img-rounded {
+    border-radius: 50%;
+    margin:0 auto;
+    width: 25%;
+}
+
+.user_profile_cap {
+  width: 970;
+  height: auto 13;
+  border: 0px solid #DDD;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  overflow:hidden;
+}
+
+.user_profile_cover {
+  img {
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+        }
+
+}
+
+.user_profile_headline {
+  padding: 10px;
+  font-size: 16px;
+}
+.user_profile_headline img{
+    border:1px solid #EEEEEE;
+    width:150px;
+    height:150px;
+    float:left;
+    margin:-90px 10px 0  0;
+    position:relative;
+    z-index:111;
+    
+    background-color:white;
+}
+.user_profile_headline h2{
+ 
+    margin:0;
+    padding:0;
+    font-weight:bold;
+    display:block;   
+}
+.user_profile_headline span{
+    font-family:verdana;
+    color:gray;
+ 
+}
+.cropped-rounded {
+  border-radius: 50%;
+  margin:0 auto;
+}
